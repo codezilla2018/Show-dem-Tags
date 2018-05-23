@@ -27,7 +27,7 @@ iterator = twitter_stream.statuses.sample() # filter(track="#OpenSource")
 # the Twitter API to collect data for days or even longer. 
 tweet_count = 10
 for tweet in iterator:
-    tweet_count -= 100
+    tweet_count -= 1
     # Twitter Python Tool wraps the data returned by Twitter 
     # as a TwitterDictResponse object.
     # We convert it back to the JSON format to print/score
