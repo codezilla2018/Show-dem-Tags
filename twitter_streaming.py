@@ -8,10 +8,10 @@ except ImportError:
 from twitter import Twitter, OAuth, TwitterHTTPError, TwitterStream
 
 # Variables that contains the user credentials to access Twitter API 
-ACCESS_TOKEN = '999287084514009088-KFT57PUcW13hHo8S75cBBTV5W6AVylh'
-ACCESS_SECRET = 'Eka3dzP6IpdGIhr59j16jHfiLysiA1WvhtreufpXbcCij'
-CONSUMER_KEY = 'KsThEydyfqTskj8eImN8iDbEt'
-CONSUMER_SECRET = 'hcu0joNNw3dYKLgwT2ha6PoQIX9AKqK0Zl7lLwMzCosaH8CCGP'
+ACCESS_TOKEN = '<private>'
+ACCESS_SECRET = '<private>'
+CONSUMER_KEY = '<private>'
+CONSUMER_SECRET = '<private>'
 
 oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 
